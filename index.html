@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>quest formulário</title>
+</head>
+
+<body class="body">
+    <div class="informations">
+        <h1 class="title">FICOU COM DÚVIDA? <br>
+            NOS MANDE UMA MENSAGEM!
+        </h1>
+        <h3 class="description">
+            caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+        </h3>
+    </div>
+
+    <div class="formContainer">
+
+        <form id="form" action="index.html" method="get">
+            <input class="campo" type="text" placeholder="Nome completo *" name="name" id="name" />
+
+            <p class="avisoNome hide">campo obrigatório</p>
+            
+            <input class="campo" type="text" placeholder="Email *" name="email" id="email" />
+
+            <p class="avisoEmail hide">campo obrigatório</p>
+
+            <input class="campo" type="tel" placeholder="Telefone *" name="number" id="number" />
+
+            <p class="avisoTelefone hide">campo obrigatório</p>
+
+            <textarea class="campo" rows="5" cols="35" placeholder="Mensagem *" name="mensagem" id="mensagem"></textarea>
+
+            <p class="avisoMensagem hide">campo obrigatório</p>
+            
+            <span class="span">*campos obrigatórios</span>
+
+            <button class="button" type="button">Enviar</button>
+        </form>
+
+    </div>
+
+
+
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
